@@ -1,6 +1,6 @@
 {
   "name": "alen-ci-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal Electron application that deploys on CI servers",
   "main": "main.js",
   "scripts": {
