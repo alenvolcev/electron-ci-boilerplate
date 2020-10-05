@@ -1,5 +1,5 @@
 {
-  "name": "electron-ci-boilerplate",
+  "name": "alen-ci-boilerplate",
   "version": "1.0.0",
   "description": "A minimal Electron application that deploys on CI servers",
   "main": "main.js",
@@ -8,7 +8,7 @@
     "release": "electron-builder",
     "test": "echo success"
   },
-  "repository": "https://github.com/lane-c-wagner/electron-ci-boilerplate",
+  "repository": "https://github.com/alenvolcev/electron-ci-boilerplate",
   "keywords": [
     "electron",
     "ci",
@@ -16,9 +16,9 @@
     "tutorial",
     "demo"
   ],
-  "author": "lane-c-wagner",
+  "author": "alen-volcev",
   "build": {
-    "appId": "tld.exampledomain.app",
+    "appId": "tld.alenvolcev.app",
     "publish": "github",
     "dmg": {
       "contents": [
@@ -44,6 +44,6 @@
   },
   "devDependencies": {
     "electron": "^4.0.1",
-    "electron-builder": "^21.2.0"
+    "electron-builder": "^22.8.1"
   }
 }
